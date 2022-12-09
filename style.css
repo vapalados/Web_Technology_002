@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(214, 196, 151, 0.53);
+}
+
+h1 {
+    background-color: rgba(156, 4, 4, 0.559);
+}
+
+h2 {
+    background-color: rgba(28, 156, 113, 0.559);
+}
+
+h2 {
+    color: rgba(146, 24, 203, 0.909);
+}
+
+.bo {
+    font-size: 19px;
+    font-family: 'Teddy', sans-serif;
+}
+
+.ne {
+    font-size: 25px;
+    font-family: 'NeueMachina', sans-serif;
+}
+
+@font-face {
+    font-family: 'Teddy';
+    src: url('fonts/teddy_bear.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('fonts/teddy_bear.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('fonts/teddy_bear.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('fonts/teddy_bear.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('fonts/teddy_bear.svg#teddy_bear') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('../fonts/neuemachina-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('../fonts/neuemachina-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('../fonts/neuemachina-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/neuemachina-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('../fonts/neuemachina-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/neuemachina-regular.svg#neuemachina-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
